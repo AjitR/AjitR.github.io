@@ -1,0 +1,55 @@
+
+#command{
+    display: inline-block;
+    /* width: 100%; */
+    border: 0px;
+    background-color: #1c021900;
+    color: #ffffff;
+    outline-width: 0;
+    font-size: 16px !important;
+    margin-bottom: 20px;
+    font-family: "Courier", Monaco, monospace;
+    text-transform: lowercase;
+}
+#command-line span{
+    display: inline-block;
+}
+#command-line{
+    display: inline-block;
+    width: 100%;
+}
+
+
+#about, #education, #projects, #experience, #skills, #contact, #connect, #error, #help, #download, #ls, #achievements{
+    display:none;
+}
+
+#resume-container{
+    padding: 15px;
+}
+
+#contact,#download a{
+		color: #d9d813;
+}	
+.welcome{
+	margin-left: 15px;
+}
+	
+.available_commads{
+    flex:1;
+}
+
+
+.borderless td, .borderless th {
+    border: none;
+    color: #ffffff;
+}
+.proj_name strong, .proj_name a{
+    color:#59c6c3;
+}
+.proj_name a{
+    text-decoration: underline;
+}
+.proj_name span{
+    color:#2ebfb5;
+}
