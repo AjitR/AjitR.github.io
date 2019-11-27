@@ -108,6 +108,8 @@ canvas {
     EXIF.getData(file, function() {
       str = '<ul>';
       var data = EXIF.getAllTags(this);
+      console.log("debugg");
+      console.log(data);
       for (var i in data) {
         if (i === 'MakerNote') { continue; }
         disp = data[i];
