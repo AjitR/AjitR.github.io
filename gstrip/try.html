@@ -109,29 +109,32 @@ canvas {
       str = '<ul>';
       var data = EXIF.getAllTags(this);
       if (data[0] == null){
-      console.log("debugg");
-      }
-
-      console.log(data);
-      for (var i in data) {
-        if (i === 'MakerNote') { continue; }
-        disp = data[i];
-        str += '<li>'+i+': '+disp+'</li>';
-      }
-      out.innerHTML = str + '</ul>';
-      if (i !== 0) {
-        if(objURL) {
-          loadImage(url.createObjectURL(file),file.name);
-        } else {
-          var reader = new FileReader();
-          reader.readAsDataURL( file );
-          reader.onload = function ( ev ) {
-            loadImage(ev.target.result,file.name);
-          };
-        }
-      } else {
         output.innerHTML = 'Image is already clean!';
       }
+      else{
+        for (var i in data) {
+          if (i === 'MakerNote') { continue; }
+          disp = data[i];
+          str += '<li>'+i+': '+disp+'</li>';
+        }
+        out.innerHTML = str + '</ul>';
+        if (i !== 0) {
+          if(objURL) {
+            loadImage(url.createObjectURL(file),file.name);
+          } else {
+            var reader = new FileReader();
+            reader.readAsDataURL( file );
+            reader.onload = function ( ev ) {
+              loadImage(ev.target.result,file.name);
+            };
+          }
+        } else {
+          output.innerHTML = 'Image is already clean!';
+        }
+      }
+
+
+
     });
     e.preventDefault();
   }
