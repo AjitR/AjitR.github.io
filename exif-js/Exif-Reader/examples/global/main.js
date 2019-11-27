@@ -34,11 +34,11 @@
                     listTags(tags);
                 }
                 else {
-                  var tableBody = document.getElementById('exif-table-body');
-                  var row = document.createElement('p');
-                  row.innerHTML = 'no exif data';
-                  tableBody.appendChild(row);
-
+              //    var tableBody = document.getElementById('exif-table-body');
+              //    var row = document.createElement('p');
+              //    row.innerHTML = 'no exif data';
+              //    tableBody.appendChild(row);
+              listTags(tags);
                 }
                 //popu();
 
@@ -63,5 +63,5 @@
         }
     }
 
-  
+
 })(window, document);
