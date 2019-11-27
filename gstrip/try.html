@@ -154,6 +154,9 @@ canvas {
 
   newImg.src = url;
   document.body.appendChild(newImg);
+  var imgd = document.querySelector('#imgdownload');
+  imgd.innerHTML = '<a href='+ url + 'download>';'
+  
 });
     console.log(blob);
 
@@ -190,7 +193,8 @@ canvas {
 <div id="output"></div>
 <canvas></canvas>
 </div>
-
+<div id="imgdownload">
+</div>
 </section>
 </body>
 </html>
