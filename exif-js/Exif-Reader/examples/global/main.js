@@ -35,7 +35,9 @@
                     popu();
                 }
                 else {
-                    noexif();
+                    var txt;
+                    txt = "no exif data";
+                    noexif(txt);
                 }
 
 
@@ -60,7 +62,7 @@
         }
     }
 
-    function noexif(){
+    function noexif(txt){
       var tableBody;
       var name;
       var row;
@@ -68,7 +70,7 @@
       tableBody = document.getElementById('exif-table-body');
 
           row = document.createElement('tr');
-          row.innerHTML = '<td> No exif data found</td><td></td>';
+          row.innerHTML = '<td> '+txt+'</td><td></td>';
           tableBody.appendChild(row);
 
     }
