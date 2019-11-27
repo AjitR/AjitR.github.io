@@ -30,7 +30,7 @@
                 // memory usage if you're parsing a lot of files and saving the
                 // tags.
                 delete tags['MakerNote'];
-                if (tags['GPSVersionID']){
+                if (tags['GPSLatitude']){
                     listTags(tags);
                 }
                 else {
@@ -38,7 +38,7 @@
               //    var row = document.createElement('p');
               //    row.innerHTML = 'no exif data';
               //    tableBody.appendChild(row);
-              listTags(tags);
+              //listTags(tags);
                 }
                 //popu();
 
