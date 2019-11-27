@@ -1,42 +1,26 @@
 {
-  "_from": "exifreader",
-  "_id": "exifreader@2.12.0",
-  "_inBundle": false,
-  "_integrity": "sha512-Z0unewjtJ5uwiN5Q6qzPIC+LnM6S/oTFdM4fvbhhqZbDxaK6C4CkLOPltYwODL7Gvz1YwflewSRIqRPfBqoR9w==",
-  "_location": "/exifreader",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "exifreader",
-    "name": "exifreader",
-    "escapedName": "exifreader",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+  "name": "exifreader",
+  "version": "2.12.0",
+  "description": "Library that parses Exif metadata in images.",
+  "author": "Mattias Wallander <mattias@wallander.eu>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattiasw/ExifReader"
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
+  "bugs": "https://github.com/mattiasw/ExifReader/issues",
+  "license": "MPL-2.0",
+  "main": "dist/exif-reader.js",
+  "module": "src/exif-reader.js",
+  "files": [
+    "dist/",
+    "src/",
+    "exif-reader.d.ts"
   ],
-  "_resolved": "https://registry.npmjs.org/exifreader/-/exifreader-2.12.0.tgz",
-  "_shasum": "bee458eb913eb60464875ec6e405461cb92bb4f7",
-  "_spec": "exifreader",
-  "_where": "/Users/ajitrajurkar/Documents/Stony Brook Courses/Net Security/plugin",
-  "author": {
-    "name": "Mattias Wallander",
-    "email": "mattias@wallander.eu"
-  },
-  "bugs": {
-    "url": "https://github.com/mattiasw/ExifReader/issues"
-  },
-  "bundleDependencies": false,
   "dependencies": {
     "@types/node": "^10.12.18",
     "xmldom": "^0.1.27"
   },
-  "deprecated": false,
-  "description": "Library that parses Exif metadata in images.",
+  "types": "./exif-reader.d.ts",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
@@ -54,16 +38,13 @@
     "webpack": "^4.15.1",
     "webpack-cli": "^3.3.6"
   },
-  "files": [
-    "dist/",
-    "src/",
-    "exif-reader.d.ts"
-  ],
-  "homepage": "https://github.com/mattiasw/ExifReader#readme",
-  "license": "MPL-2.0",
-  "main": "dist/exif-reader.js",
-  "module": "src/exif-reader.js",
-  "name": "exifreader",
+  "scripts": {
+    "build": "webpack",
+    "coverage": "nyc npm test",
+    "lint": "eslint .",
+    "precommit": "npm-run-all lint test",
+    "test": "cross-env BABEL_ENV=test mocha --require babel-core/register"
+  },
   "nyc": {
     "check-coverage": true,
     "statements": 95,
@@ -78,18 +59,5 @@
       "test/**/*.js",
       "**/node_modules/*"
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mattiasw/ExifReader.git"
-  },
-  "scripts": {
-    "build": "webpack",
-    "coverage": "nyc npm test",
-    "lint": "eslint .",
-    "precommit": "npm-run-all lint test",
-    "test": "cross-env BABEL_ENV=test mocha --require babel-core/register"
-  },
-  "types": "./exif-reader.d.ts",
-  "version": "2.12.0"
+  }
 }
