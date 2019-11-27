@@ -101,6 +101,15 @@ canvas {
   app.addEventListener('drop', getfile, false);
   fileinput.addEventListener('change', getfile, false);
 
+
+  function isEmpty(obj) {
+    for(var key in obj) {
+        if(obj.hasOwnProperty(key))
+            return false;
+    }
+    return true;
+}
+
   function getfile(e) {
     document.body.classList.remove('dragdrop');
     i = 0;
@@ -109,7 +118,7 @@ canvas {
       str = '<ul>';
       var data = EXIF.getAllTags(this);
       console.log(data);
-      if (!data ){
+      if (!isEmpty(data)){
         output.innerHTML = 'Image is already clean!';
       }
       else{
