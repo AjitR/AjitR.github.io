@@ -154,10 +154,15 @@ canvas {
 
   newImg.src = url;
   document.body.appendChild(newImg);
-  var imgd = document.querySelector('#imgdownload');
-  var linkk = '<a href= '+ url + ' download>';
-  imgd.innerHTML = '<a href= '+ url + ' download=newfile.png>';
-
+  //var imgd = document.querySelector('#imgdownload');
+  //var linkk = '<a href= '+ url + ' download>';
+  //imgd.innerHTML = '<a href= '+ url + ' download=newfile.png>';
+  var a = document.createElement("a");
+  document.body.appendChild(a);
+  a.style = "display: none";
+  a.href = url;
+        a.download = "cleanfile.png";
+        a.click();
 });
     console.log(blob);
 
