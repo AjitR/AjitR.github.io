@@ -32,15 +32,16 @@
                 delete tags['MakerNote'];
                 if (tags['GPSLatitude']){
                     listTags(tags);
+                    popu();
                 }
                 else {
-              //    var tableBody = document.getElementById('exif-table-body');
-              //    var row = document.createElement('p');
-              //    row.innerHTML = 'no exif data';
-              //    tableBody.appendChild(row);
-              //listTags(tags);
+                  var tableBody = document.getElementById('exif-table-body');
+                  var row = document.createElement('p');
+                  row.innerHTML = 'no exif data';
+                  tableBody.appendChild(row);
+
                 }
-                //popu();
+
 
             } catch (error) {
                 alert(error);
@@ -61,6 +62,15 @@
             row.innerHTML = '<td>' + name + '</td><td>' + tags[name].description + '</td>';
             tableBody.appendChild(row);
         }
+    }
+    function popu(){
+      var txt;
+      if (confirm("Exif-GPS Data present, Do you want to strip it off?")) {
+        gstrip();
+      } else {
+        txt = "You pressed Cancel!";
+        document.getElementById("demo").innerHTML = txt;
+      }
     }
 
 
