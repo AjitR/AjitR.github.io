@@ -35,11 +35,7 @@
                     popu();
                 }
                 else {
-                  var tableBody = document.getElementById('exif-table-body');
-                  var row = document.createElement('p');
-                  row.innerHTML = 'no exif data';
-                  tableBody.appendChild(row);
-
+                    noexif();
                 }
 
 
@@ -62,6 +58,19 @@
             row.innerHTML = '<td>' + name + '</td><td>' + tags[name].description + '</td>';
             tableBody.appendChild(row);
         }
+    }
+
+    function noexif(){
+      var tableBody;
+      var name;
+      var row;
+
+      tableBody = document.getElementById('exif-table-body');
+
+          row = document.createElement('tr');
+          row.innerHTML = '<td> No exif data found</td><td></td>';
+          tableBody.appendChild(row);
+
     }
     function popu(){
       var txt;
