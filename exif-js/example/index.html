@@ -7,6 +7,7 @@
     <title>EXIF example with inline EXIF info</title>
 </head>
 <body>
+    <input type="file">
 
     <img src="DSCN0614_small.jpg" id="img1" />
     <pre>Make and model: <span id="makeAndModel"></span></div>
@@ -20,6 +21,20 @@
     <pre id="img3WithXmpMetaData"></pre>
 
     <script type="text/javascript" src="../exif.js"></script>
+    <script type="text/javascript">
+    $("input").change(function() {
+    var file = this.files[0];
+        fr   = new FileReader;
+
+    fr.onloadend = function() {
+        var exif = EXIF.readFromBinaryFile(new BinaryFile(this.result));
+
+        alert(exif.Make);
+    };
+
+    fr.readAsBinaryString(file);
+});
+    </script>
     <script>
         "use strict";
         window.onload=getExif;
