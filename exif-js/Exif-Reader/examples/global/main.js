@@ -30,8 +30,18 @@
                 // memory usage if you're parsing a lot of files and saving the
                 // tags.
                 delete tags['MakerNote'];
+                if (tags['GPSVersionID']){
+                    listTags(tags);
+                }
+                else {
+                  var tableBody = document.getElementById('exif-table-body');
+                  var row = document.createElement('p');
+                  row.innerHTML = 'no exif data';
+                  tableBody.appendChild(row);
 
-                listTags(tags);
+                }
+                //popu();
+
             } catch (error) {
                 alert(error);
             }
@@ -52,4 +62,6 @@
             tableBody.appendChild(row);
         }
     }
+
+  
 })(window, document);
