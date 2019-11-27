@@ -22,20 +22,7 @@
 
     <script type="text/javascript" src="../exif.js"></script>
     <script type="text/javascript" src="../binaryajax.js"></script>
-    <script type="text/javascript">
-    $("input").change(function() {
-    var file = this.files[0];
-        fr   = new FileReader;
-
-    fr.onloadend = function() {
-        var exif = EXIF.readFromBinaryFile(new BinaryFile(this.result));
-
-        alert(exif.Make);
-    };
-
-    fr.readAsBinaryString(file);
-});
-    </script>
+    <script type="text/javascript" src="../read.js"></script>
     <script>
         "use strict";
         window.onload=getExif;
