@@ -108,6 +108,7 @@ canvas {
     EXIF.getData(file, function() {
       str = '<ul>';
       var data = EXIF.getAllTags(this);
+      console.log(data);
       if (!data ){
         output.innerHTML = 'Image is already clean!';
       }
