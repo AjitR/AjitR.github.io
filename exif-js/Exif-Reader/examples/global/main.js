@@ -77,7 +77,7 @@
     function popu(){
       var txt;
       if (confirm("Exif-GPS Data present, Do you want to strip it off?")) {
-        gstrip();
+        gstrip(file);
       } else {
         txt = "You pressed Cancel!";
         document.getElementById("demo").innerHTML = txt;
