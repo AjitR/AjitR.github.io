@@ -34,7 +34,7 @@
   "description": "JavaScript library for reading EXIF image metadata",
   "devDependencies": {
     "bower": "^1.4.2",
-    "mversion": "^1.10.0"
+    "mversion": "^2.0.0"
   },
   "directories": {
     "example": "example"
