@@ -1,0 +1,13 @@
+
+/*reset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{ margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6{font-weight: normal;}
+ol, ul{list-style:none;}
+fieldset, img{border:0;}
+table{border-collapse: collapse; border-spacing:0;}
+caption, th{text-align:left;}
+address, caption, cite, code, dfn, em, strong, th, var{ font-style: normal; font-weight: normal;}
+img{margin:0px; padding:0px; border:none}
+
+br {letter-spacing: 0;}/*ie6邵ｺ�ｮ隰ｾ�ｹ髯ｦ蠕鯉ｿｽ郢晁�縺堤ｹｧ蛛ｵ竊醍ｸｺ荳岩�*/
+img {vertical-align:bottom}/*table邵ｺ�ｮ騾包ｽｻ陷剃ｸ奇ｿｽ鬮ｫ蜥惹ｿ｣郢ｧ蛛ｵ竊醍ｸｺ荳岩�*/
