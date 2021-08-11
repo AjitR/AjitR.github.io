@@ -8,6 +8,9 @@ $(function(){
   $('.cursel-center-tit h2').delay(5800).queue(function(){
   		$(this).addClass('load');
    });
+   $('.project-tag').delay(5800).queue(function(){
+      $(this).addClass('load');
+    });
   $('#count').delay(6000).queue(function(){
   		$(this).addClass('load');
    });
@@ -32,12 +35,14 @@ $(function(){
       $(".cursel-center-img-before").removeClass("is_active");
       $(".cursel-center-img-after").removeClass("is_active");
       $(".cursel-center-tit").removeClass("is_active");
+      $(".project-tag").removeClass("is_active");
       $(".cursel-center-tit-base").removeClass("is_active");
       $("body").removeClass("on");
     }else{
       $(".cursel-center-img-before").addClass('is_active');
       $(".cursel-center-img-after").addClass('is_active');
       $(".cursel-center-tit").addClass('is_active');
+      $(".project-tag").addClass('is_active');
       $(".cursel-center-tit-base").addClass('is_active');
       $("body").addClass("on");
     }
@@ -66,9 +71,9 @@ $(function(){
 // one page
 
 $(function() {
-  var ANIMATION_DELAY = 1000 // 次にスクロールを許可するまでの時間
-  var IMAGE_CHANGE_DELAY = 400 // 画像が切り替わるまでの時間
-  var LOADING_DELAY = 700 // load クラスを消してから再度付与するまでの時間
+  var ANIMATION_DELAY = 1000
+  var IMAGE_CHANGE_DELAY = 400
+  var LOADING_DELAY = 700
   var IMAGE_DIR = 'assets/img/00_main/'
 
   var $countNum = $('#count-num')
@@ -81,13 +86,14 @@ $(function() {
   var $after = $('.cursel-center-img-after')
   var $afterImg = $('.cursel-center-img-after img')
   var $centerTitH2 = $('.cursel-center-tit h2')
+  var $projectTags = $('.project-tag')
   var $curselUpH2 = $('.cursel-up h2')
   var $curselUnderH2 = $('.cursel-under h2')
 
   var TITLES = [
-    ['Masterlink', 'detail/kazuki.html'],
-    ['Terminal Manager', 'detail/kazuki.html'],
-    ['MiWireless', 'detail/kazuki.html'],
+    ['Masterlink', 'detail/kazuki.html', 'tag1 tag2 tag3'],
+    ['Terminal Manager', 'detail/kazuki.html', 'tag4 tag5 tag6'],
+    ['MiWireless', 'detail/kazuki.html', 'tag7 tag8 tag9'],
 
   ]
   var IMAGES = [
@@ -121,7 +127,7 @@ $(function() {
     })
   }
 
-  // 画像のプリロード
+
   var preloadImage = function(path) {
     var img = new Image
     img.src = IMAGE_DIR + path
@@ -134,12 +140,12 @@ $(function() {
     })
   }
 
-  // 2桁に合わせる
+
   var z2 = function(num) {
     return ('0' + num).slice(-2)
   }
 
-  // イベントの処理 ⇛ move を呼び出す
+
   var tryMove = function(direction /* up | down */) {
     if (isAnimating || (direction !== 'up' && direction !== 'down')) return
     isAnimating = true
@@ -166,39 +172,39 @@ $(function() {
     setTimeout(function() { isAnimating = false }, ANIMATION_DELAY)
   }
 
-  // ページの移動
+
   var move = function(direction) {
-    // アニメーション開始
+
     $cursel.addClass('stop ' + direction)
     $cursel.offset()
     $cursel.removeClass('stop')
     $cursel.addClass('start')
     $centerImg.removeClass('load')
 
-    // テキストの変更処理
+
     updateNum()
     updateTitle()
 
-    // 画像の切り替え
+
     setTimeout(function() {
       $beforeImg.attr('src', IMAGE_DIR + IMAGES[currentIndex][0])
       $afterImg.attr('src', IMAGE_DIR + IMAGES[currentIndex][1])
     }, IMAGE_CHANGE_DELAY)
 
-    // アニメーション終了
+
     setTimeout(function() {
       $cursel.removeClass('start ' + direction)
       $centerImg.addClass('load')
     }, LOADING_DELAY)
   }
 
-  // カウンタの更新
+
   var updateNum = function() {
     var num = z2(currentIndex + 1)
     $countNum.text(num)
   }
 
-  // タイトルとリンクの更新
+
   var updateTitle = function() {
     var prevIndex = currentIndex - 1
     var nextIndex = currentIndex + 1
@@ -211,17 +217,17 @@ $(function() {
     }
 
     $centerTitH2.html(TITLES[currentIndex][0])
+    $projectTags.html(TITLES[currentIndex][2])
     $link.attr('href', TITLES[currentIndex][1])
     $curselUpH2.html(TITLES[prevIndex][0])
     $curselUnderH2.html(TITLES[nextIndex][0])
   }
 
-  // 初期化処理
+
   preloadImages()
   updateNum()
   updateTitle()
   $maxNum.text(z2(itemCount))
 
-  // x秒後にスクロールイベント設定
   setTimeout(setScrollEvents, 6000)
 })

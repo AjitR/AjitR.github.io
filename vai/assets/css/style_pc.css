@@ -30,7 +30,7 @@ html, body {
 
 
 body.top{
-  background-color: #192735;
+  background-color: #0e161f;
        margin-left: 0px;
        margin-top: 0px;
        margin-right: 0px;
@@ -56,7 +56,7 @@ body.top:after {
 }
 
 body.detail{
-  background-color: #192735;
+  background-color: #0e161f;
 }
 
 body.detail:after{
@@ -401,8 +401,8 @@ height: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%) skewX(-10deg);
-  -webkit- transform: translateY(-50%) translateX(-50%) skewX(-10deg);
+  transform: translateY(-50%) translateX(-50%) skewX(0deg);
+  -webkit- transform: translateY(-50%) translateX(-50%) skewX(0deg);
   width:auto;
   height:50%;
   z-index: 5;
@@ -549,6 +549,10 @@ height: 100%;
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
+.project-tag{
+    font-size: 2vw;
+    color: rgba(255,255,255,0.9);
+}
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     _::-webkit-full-page-media, _:future, :root .cursel-center-tit-base h2 {
         background-image: none;
@@ -757,7 +761,7 @@ body.on .cursel-under h2{
 
 #about{
   position: fixed;
-  background-color: #0e161f;
+  background-color: #a7a7a7;
   z-index: 200;
   height: 0;
   width: 100%;
@@ -1120,7 +1124,7 @@ height:100vh;
 }
 
 .bg_anim{
-    background-color: #192735;
+    background-color: #0e161f;
     height:0;
     z-index: 2;
     -webkit-transform: translateY(0);
@@ -1183,11 +1187,12 @@ height:100vh;
   -o-filter: blur(10px);
   -ms-filter: blur(10px);
   filter: blur(10px);*/
-  padding-top:40px;
+  padding-top: 0;
+  letter-spacing: 0.5px;
   /*transform: scale(0.8);*/
-  -moz-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  /* -moz-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); */
 }
 
 .flex_info_item.is_visible li, #visit.is_visible, .credit_box_item.is_visible, .credit_tit.is_visible{
@@ -1199,13 +1204,13 @@ height:100vh;
   padding-top: 0;
   letter-spacing: 0.5px;
   /*transform: scale(1);*/
-  -moz-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  /* -moz-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); */
 }
 
 .longtext{
-  line-height: 60px;
+  line-height: 25px;
 }
 
 .longtext.is_visible{
@@ -1231,7 +1236,7 @@ height:100vh;
 
 .year li,.role li{
   line-height: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   font-weight: bold;
 }
 
@@ -1298,7 +1303,7 @@ height:100vh;
   -o-filter: blur(20px);
   -ms-filter: blur(20px);
   filter: blur(20px);*/
-  transform: scale(0.8);
+  transform: scale(1);
   -moz-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   -webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -1311,9 +1316,9 @@ height:100vh;
   -ms-filter: blur(0px);
   filter: blur(0px);*/
   transform: scale(1);
-  -moz-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  /* -moz-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   -webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); */
 }
 
 .flex_01{
@@ -1564,9 +1569,9 @@ height:100vh;
 body {
 
   /*overflow: hidden;*/
-  cursor: none;
+  /* cursor: none; */
 }
-
+/*
 .cursor {
   position: absolute;
   background-color: white;
@@ -1584,8 +1589,10 @@ body {
   background-color: white;
   transform: scale(2);
   opacity: 1;
-  /*transform: scale(0);*/
+  /*transform: scale(0);
 }
+
+/*
 .cursor.hovered {
   opacity: 1;
 }
@@ -1609,12 +1616,12 @@ body {
 }
 .cursor-follower.hovered {
   opacity: 0.65;
-}
+} */
 
 a {
   text-decoration: none;
   /*text-transform: uppercase;*/
-  cursor: none;
+  /* cursor: none; */
 }
 
 .link-list {
