@@ -320,7 +320,7 @@ height: 100%;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
   z-index: 7;
-
+  pointer-events: none;
   -moz-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -340,7 +340,7 @@ height: 100%;
   background-image: url(../img/noise.gif);
   -webkit-text-stroke: none;
   z-index: 4;
-
+  pointer-events: none;
   -moz-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
