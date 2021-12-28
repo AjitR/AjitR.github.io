@@ -1,0 +1,905 @@
+{
+    "en": {
+        "intro": "<b>Click</b> and hold to enter.",
+        "introMobile": "<b>Touch</b> and hold to enter.",
+        "header": {
+            "works": "Works",
+            "worksBack": "Back",
+            "about": "About",
+            "reel": "Reel"
+        },
+        "sections": {
+            "about": {
+                "title": "About"
+            },
+            "reel": {
+                "title": "Showreel"
+            },
+            "works": {
+                "title": "Selected works",
+                "previous": "Previous project",
+                "next": "Next project"
+            },
+            "rotateScreen": "Turn your device <b>vertically</b>."
+        },
+        "about": {
+            "textOne": "I'm Thieb or Thiébault Delaporte-Richard, French Art Director, Interactive and Motion Designer working at <a href=\"http://www.activetheory.net/\" target=\"_blank\">Active Theory</a> in Sunny California. Graduated from <a href=\"http://www.gobelins-school.com/\" target=\"_blank\">Gobelins</a> School in Paris, I previously worked at <a href=\"http://makemepulse.com/\" target=\"_blank\">Makemepulse</a> and <a href=\"http://toolofna.com/\" target=\"_blank\">Tool of North America</a>.<br/><br/>In studio or as a freelance, I had the privilege to collaborate with global brands all over the world including Google, Spotify, Nike, Netflix, Illumination Entertainment, IBM, Airbnb, The US Army and Unicef.<br/><br/>",
+            "textTwo": "Driven by my passion for design and motion, I try to learn and discover new things every day to create unique visuals and experiences. I constantly seek to reach feelings and emotions by giving much importance to details, animations and smart interactions.<br/><br/>Bobas, fried chicken and <a href=\"http://ayamflow.fr\" target=\"_blank\">ayamflow</a> were used to code this website."
+        },
+        "works": [
+                        {
+                "title": "The Frontier Within",
+                "displayTitle": "The Frontier<br/>Within",
+                "intro": "3D, Design  - June 2019  -  Thorne, Droga5, Plan8  -  Active Theory",
+                "project": "3D & Design",
+                "date": "June 2019",
+                "client": "Thorne",
+                "description": "The Frontier Within is an immersive installation that captures the participant’s circulatory, respiratory and nervous system data, and transforms it into a living, breathing, interactive portrait of the body. It was live as a physical installation at Studio 525 in New York City on June 21–22 2019, and continues to be available online.<br/><br/>I was in charge of the three 3D particle systems (lungs, heart, brain) projected during the experience.<br/><br/>Now online at <a href=\"https://frontierwithin.thorne.com//\" target=\"_blank\">frontierwithin.thorne.com/</a>.",
+                "media": [
+                    "images/the-frontier-within/within-1.jpg",
+                    "images/the-frontier-within/within-2.jpg",
+                    "images/the-frontier-within/within-3.jpg",
+                    "images/the-frontier-within/within-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Agency",
+                    "role": "Droga5"
+                },{
+                    "name": "Activation & Films",
+                    "role": "Marshmallow Laser Feast"
+                }, {
+                    "name": "Music & Sound design",
+                    "role": "Plan8"
+                }, {
+                    "name": "Interactive Production",
+                    "role": "Active Theory"
+                }, {
+                    "name": "Nick Mountford",
+                    "role": "Managing Direction"
+                }, {
+                    "name": "Annie Chen",
+                    "role": "Head of Production"
+                }, {
+                    "name": "Andy Thelander & Michael Anthony",
+                    "role": "Creative & Interactive Direction"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard",
+                    "role": "3D & Interactive Design"
+                }, {
+                    "name": "Mike Chang, Giuseppe Suarez, Hayden Betts",
+                    "role" :"Back-End Development"
+                }, {
+                    "name": "Patrick Heng",
+                    "role": "Interactive Development"
+                }, {
+                    "name": "Hanee Pyon",
+                    "role": "UI/UX Design"
+                }],
+                "awards": [
+                    {
+                        "title": "FWA",
+                        "value": "SOTD, SOTM."
+                    }, {
+                        "title": "Awwwards",
+                        "value": "SOTD, SOTM."
+                    }, {
+                        "title": "CSS Design Awards",
+                        "value": "SOTD."
+                    }
+                ]
+            },
+            {
+                "title": "Your 2018 Wrapped",
+                "displayTitle": "Your 2018<br/>Wrapped",
+                "intro": "Interactive & Motion Design  - Dec 2018  -  Spotify  -  Active Theory",
+                "project": "Interactive & Motion Design",
+                "date": "Dec 2018",
+                "client": "Spotify",
+                "description": "On December 6, the 2018 Wrapped website was launched, attracting over 20 million visitors on the first day alone. The site takes listeners on a journey through how they listened in 2018 - from top songs, genres, and artists, to unexpected facts about what star sign or artist you listen to the most.<br/><br/>As the lead Interactive & Motion designer on this project, I worked on every transition & animation of the experience. My creative concepts have then been used as a basis for the development of the experience. <br/><br/>Full experience on <a href=\"http://spotifywrapped.com/\" target=\"_blank\">spotifywrapped.com</a>.",
+                "media": [
+                    "images/your-2018-wrapped/wrapped-gif.gif",
+                    "images/your-2018-wrapped/wrapped-1.jpg",
+                    "images/your-2018-wrapped/wrapped-2.jpg",
+                    "images/your-2018-wrapped/wrapped-3.jpg",
+                    "images/your-2018-wrapped/wrapped-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Spotify"
+                }, {
+                    "name": "Production",
+                    "role": "Active Theory"
+                }, {
+                    "name": "Annie Chen",
+                    "role": "Head of Production"
+                }, {
+                    "name": "Eddie Benson",
+                    "role": "Strategy"
+                }, {
+                    "name": "Andy Thelander",
+                    "role": "Creative Direction"
+                }, {
+                    "name": "Michael Anthony",
+                    "role" :"Interactive Direction"
+                }, {
+                    "name": "Mike Chang",
+                    "role": "Technical Direction"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard",
+                    "role": "Interactive & Motion Design"
+                }, {
+                    "name": "Alex Bergin, Florian Morel, Nathan Gordon",
+                    "role": "Interactive Development"
+                }, {
+                    "name": "Giuseppe Rodriguez",
+                    "role": "Back-End Development"
+                }],
+                "awards": [
+                    {
+                        "title": "Cannes Lions",
+                        "value": "2 Bronze, 9 Finalist."
+                    }, {
+                        "title": "One SHow Awards",
+                        "value": "3 Gold, 1 Silver, 1 Bronze."
+                    }, {
+                        "title": "ADC Awards",
+                        "value": "2 Gold, 3 Bronze."
+                    },  {
+                        "title": "D&AD Awards",
+                        "value": "2 Wood Pencil."
+                    },  {
+                        "title": "The Webby Awards",
+                        "value": "1 Winner."
+                    },  {
+                        "title": "FWA",
+                        "value": "SOTD."
+                    },  {
+                        "title": "Awwwards",
+                        "value": "SOTD."
+                    }
+                ]
+            },
+            {
+                "title": "World Draw",
+                "displayTitle": "World<br/>Draw",
+                "intro": "3D, Design  - May 2018  -  Google  -  Active Theory",
+                "project": "3D & Design",
+                "date": "May 2018",
+                "client": "Google",
+                "description": "Sketch something, turn it into an object and place into an expanding world. Launched at Google I/O 2018, World Draw has attracted over 300,000 creators from all over the world. I worked on the whole 3D environment of the experience<br/><br/>Full experience on <a href=\"https://world-draw.appspot.com//\" target=\"_blank\">world-draw.appspot.com/</a>.",
+                "media": [
+                    "images/world-draw/worlddraw-1.jpg",
+                    "images/world-draw/worlddraw-2.jpg",
+                    "images/world-draw/worlddraw-3.jpg",
+                    "images/world-draw/worlddraw-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Google"
+                }, {
+                    "name": "Production",
+                    "role": "Active Theory"
+                }, {
+                    "name": "Annie Chen",
+                    "role": "Head of Production"
+                }, {
+                    "name": "Andy Thelander",
+                    "role": "Creative Direction"
+                }, {
+                    "name": "Michael Anthony",
+                    "role" :"Interactive Direction"
+                }, {
+                    "name": "Mike Chang",
+                    "role": "Technical Direction"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard",
+                    "role": "3D & Interactive Design"
+                }, {
+                    "name": "Nathan Gordon, Terkel Gjervig",
+                    "role": "Interactive Development"
+                }, {
+                    "name": "Giuseppe Rodriguez",
+                    "role": "Back-End Development"
+                }],
+                "awards": [
+                    {
+                        "title": "FWA",
+                        "value": "SOTD, SOTM."
+                    }, {
+                        "title": "Awwwards",
+                        "value": "SOTD."
+                    }, {
+                        "title": "CSS Design Awards",
+                        "value": "SOTD."
+                    }
+                ]
+            },
+            {
+                "title": "Make Me Pulse 2017",
+                "displayTitle": "Make Me<br/>Pulse 2017",
+                "intro": "Art Direction, 3D, UI Design  - Jan 2017  -  Internal Project  -  Make Me Pulse",
+                "project": "Art Direction, 3D & UI Design",
+                "date": "Jan 2017",
+                "client": "Internal Project",
+                "description": "In agency, the same question has to be answered each year: how to wish the clients a happy new year ? After the huge success of its 2016 wishes, Make Me Pulse was highly anticipated. With the central message that 'Good ideas are made to be experienced', we decided to present several scenes containing revolutionary inventions, with which we could interact.<br/><br/>I was Lead DA on this project, so I decided to imagine and model many 3D objects to illustrate each of the inventions within a colorful universe, contrasting with the 2016 b&w Wishes. Developers then used these 3D objects to add some interaction, and magic. To start 2017 well.<br/><br/>Full experience on <a href=\"http://2017.makemepulse.com/\" target=\"_blank\">2017.makemepulse.com</a>.",
+                "media": [
+                    "images/wishes/wishes-1.jpg",
+                    "images/wishes/wishes-2.jpg",
+                    "images/wishes/wishes-3.jpg",
+                    "images/wishes/wishes-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Make Me Pulse"
+                }, {
+                    "name": "Nicolas Rajabaly & Antoine Ughetto",
+                    "role": "Managing Partners, Concepting"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard",
+                    "role": "Creative Direction, Lead 3D, Lead Design, UI/UX, Concepting"
+                }, {
+                    "name": "Giovanni Xu",
+                    "role" :"Design, UI/UX Design"
+                }, {
+                    "name": "Pierre Lepers",
+                    "role": "Lead Creative Development, Creative Development (Scene 5, the rocket)"
+                }, {
+                    "name": "Florentin Monteil",
+                    "role": "Creative Development (Scene 4, the planes)"
+                }, {
+                    "name": "Christophe Massolin",
+                    "role": "Creative Development (Scene 3, the robot), Front-end Development"
+                }, {
+                    "name": "William Mapan & Sylvain Bernardi",
+                    "role": "Creative Development (Scene 2, the camera)"
+                }, {
+                    "name": "Fabien Motte",
+                    "role": "Creative Development (Scene 1, the light bulb)"
+                }, {
+                    "name": "Bertrand Souriau",
+                    "role": "Front-end Development"
+                }, {
+                    "name": "Music & Sound design",
+                    "role": "Loïc Bénart"
+                }],
+                "awards": [
+                    {
+                        "title": "FWA",
+                        "value": "SOTD."
+                    }, {
+                        "title": "Awwwards",
+                        "value": "SOTD."
+                    }, {
+                        "title": "CSS Design Awards",
+                        "value": "SOTD."
+                    }
+                ]
+            },
+            {
+                "title": "Cryptaris mission",
+                "displayTitle": "Cryptaris<br/>mission",
+                "intro": "Motion Design, UI Design & Animation  -  Nov 2015  -  The US Army & Google  -  Tool of NA",
+                "project": "Motion Design, UI Design & Animation",
+                "date": "Nov 2015",
+                "client": "The US Army",
+                "description": "Cryptaris is a simulated mission made of 8 motion graphic interstitials and 7 WebGL games, each testing the user on a range of STEM skills that are required for the U.S. Army’s most unique career opportunities.<br/><br/>The following video presents the home page of the project and the interstitials I worked on, within the Tool creative team led by <a href=\"http://www.svla.co/\" target=\"_blank\">Michael Sevilla</a>.<br/><br/>Full experience on <a href=\"http://www.cryptarismission.com\" target=\"_blank\">cryptarismission.com</a>.",
+                "media": [
+                    "http://vimeo.com/147446182",
+                    "images/cryptaris-mission/cryptaris-mission-1.jpg",
+                    "images/cryptaris-mission/cryptaris-mission-2.jpg",
+                    "images/cryptaris-mission/cryptaris-mission-3.jpg",
+                    "images/cryptaris-mission/cryptaris-mission-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Tool of North America"
+                }, {
+                    "name": "Dustin Callif",
+                    "role": "Managing Partner Digital"
+                }, {
+                    "name": "Chris Neff",
+                    "role": "Executive Producer, Concepting"
+                }, {
+                    "name": "Adam Baskin",
+                    "role" :"Senior Producer, Concepting, Writing, VO"
+                }, {
+                    "name": "Michael Sevilla",
+                    "role": "Lead Creative Direction, Concepting, Writing, Lead Designer, Style Frames, Motion Direction, 3D, VO"
+                }, {
+                    "name": "Ben Priddy",
+                    "role": "Creative Direction, Concepting"
+                }, {
+                    "name": "Josh Jetson",
+                    "role": "ACD, Concepting, Design, UI Design, Animation"
+                }, {
+                    "name": "Seth Benson",
+                    "role": "3D Modeling, 3D Animation, UI Design, Animation, Compositing"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard",
+                    "role": "Motion Design, HUD, UI Design, Animation"
+                }, {
+                    "name": "Yuee Seo",
+                    "role": "Content Design, Motion Design, Animation"
+                }, {
+                    "name": "Charlie Short",
+                    "role": "Creative Writing"
+                }, {
+                    "name": "Sound",
+                    "role": "Plan 8"
+                }, {
+                    "name": "Client",
+                    "role": "U.S. Army"
+                }, {
+                    "name": "Agencies",
+                    "role": "Universal McCann, MRM, Google Zoo"
+                }],
+                "awards": [
+                    {
+                        "title": "FWA",
+                        "value": "SOTD, MOTD, SOTM runner-up."
+                    }, {
+                        "title": "Awwwards",
+                        "value": "SOTD, SOTM runner-up."
+                    }
+                ]
+            },
+            {
+                "title": "Glide Experience",
+                "displayTitle": "Glide<br/>Experience",
+                "intro": "Virtual Reality, 3D  -  Aug 2016  -  Internal Project  -  Tool of NA",
+                "project": "Virtual Reality, 3D",
+                "date": "Aug 2016",
+                "client": "Tool of NA",
+                "description": "Glide is an HTC Vive flight simulation that gives you the chance to take control of a Hang Glider and fly over a procedurally generated landscape. We imagined this game in a team of 2, in which I was Creative Director, Lead 3D and Lead VR.<br/><br/>Using the advanced Vive tracking system, you can fly around the infinite environment as though you were there, slowing down while climbing and gaining speed when swooping downwards. Ride through the valleys and mountains freely, or challenge yourself on the course and try to finish the game !<br/><br/>Available on <a href=\"http://steamcommunity.com/sharedfiles/filedetails/?id=764215190\" target=\"_blank\">SteamVR</a>.",
+                "media": [
+                    "http://vimeo.com/183302886",
+                    "images/glide-experience/glide-experience-1.jpg",
+                    "images/glide-experience/glide-experience-2.jpg",
+                    "images/glide-experience/glide-experience-3.jpg",
+                    "images/glide-experience/glide-experience-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Tool of North America"
+                }, {
+                    "name": "Dustin Callif",
+                    "role": "Managing Partner Digital"
+                }, {
+                    "name": "Julia Sourikoff",
+                    "role": "Head of VR/360"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard",
+                    "role": "Creative Direction, Concepting, Lead VR, Lead 3D, Design, Live Action, Compositing"
+                }, {
+                    "name": "Mitchell Stamper",
+                    "role": "Creative Direction, Concepting, Design, Project Management"
+                }, {
+                    "name": "Owen Bell",
+                    "role": "Game Development"
+                }, {
+                    "name": "Music",
+                    "role": "Overwerk - Daybreak"
+                }, {
+                    "name": "Client",
+                    "role": "Internal Project"
+                }]
+            },
+            {
+                "title": "Reinventing the wheel",
+                "displayTitle": "Reinventing<br/>the wheel",
+                "intro": "Virtual Reality, 3D  -  Jan 2016  -  IBM Watson  -  Tool of NA  ",
+                "project": "Virtual Reality, 3D  ",
+                "date": "Jan 2016",
+                "client": "IBM Watson",
+                "description": "This 360 video introduces \"Watson\" to the Automobile industry. The immersive film is centered around letting viewers experience first hand what it's like to take a ride in the cognitive car of the future. <br/><br/>The drive takes place in a stylized 3D environment while graphic communicating Watson's key features animate and surround the viewer. The Google cardboard experience made its debut at the 2016 International Auto Show in Detroit.<br/><br/>Available on <a href=\"http://itunes.apple.com/us/app/ibmix-auto/id1079650988?ls=1&mt=8\" target=\"_blank\">Itunes</a>.",
+                "media": [
+                    "http://vimeo.com/157911571",
+                    "images/reinventing-the-wheel/reinventing-the-wheel-1.jpg",
+                    "images/reinventing-the-wheel/reinventing-the-wheel-2.jpg",
+                    "images/reinventing-the-wheel/reinventing-the-wheel-3.jpg",
+                    "images/reinventing-the-wheel/reinventing-the-wheel-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Tool of North America"
+                }, {
+                    "name": "Dustin Callif",
+                    "role": "Managing Partner Digital"
+                }, {
+                    "name": "Simi Dhillon",
+                    "role": "Senior Producer"
+                }, {
+                    "name": "Ben Priddy",
+                    "role": "Lead Developper"
+                }, {
+                    "name": "Matt Gase, Clay Weishaar",
+                    "role": "Creative Direction, Concepting, Design, 3D Direction"
+                }, {
+                    "name": "Seth Benson",
+                    "role": "3D Modeling, 3D Animation Supervision, 3D Technical Direction, Compositing"
+                }, {
+                    "name": "Steffen Knosgaard",
+                    "role": "3D Modeling, 3D Animation"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard",
+                    "role": "3D Modeling, 3D Animation, UI Design"
+                }, {
+                    "name": "Sound",
+                    "role": "Q Department"
+                }, {
+                    "name": "Client",
+                    "role": "IBM, IBM Watson"
+                }]
+            },
+            {
+                "title": "Le Petit Journal",
+                "displayTitle": "Le Petit<br/>Journal",
+                "intro": "Cel Animation  -  June 2015  -  Canal+ & Bangumi Productions  -  Gobelins",
+                "project": "Cel Animation",
+                "date": "June 2015",
+                "client": "Canal+ & Bangumi Productions",
+                "description": "Canal+ (French TV channel) and Bangumi productions asked Gobelins' students to imagine a new brodcast design for a special animated edition of the their famous TV Show \"Le Petit Journal\". <br/><br/>My video presents some paint drops playing together to reveal the logo of the show, using Cel-Animation. It's been chosen by their teams to be broadcasted on their show on the 18th June 2015.",
+                "media": [
+                    "http://vimeo.com/133205223",
+                    "images/le-petit-journal/le-petit-journal-1.jpg",
+                    "images/le-petit-journal/le-petit-journal-2.jpg",
+                    "images/le-petit-journal/le-petit-journal-3.jpg",
+                    "images/le-petit-journal/le-petit-journal-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Gobelins, School of Image"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard",
+                    "role": "Creative Direction, Concepting, Lead Cel-Animation"
+                }, {
+                    "name": "Félix Pommier",
+                    "role": "Cel-Animation "
+                }, {
+                    "name": "Thibault Lagardère",
+                    "role": "Character Design"
+                }, {
+                    "name": "Client",
+                    "role": "Bangumi, Canal+"
+                }]
+            },
+            {
+                "title": "Musée Picasso",
+                "displayTitle": "Musée<br/>Picasso",
+                "intro": "Video Mapping, 3D, Cel-Animation  -  May 2015  -  National Museum Picasso-Paris  -  Gobelins ",
+                "project": "Video Mapping, 3D, Cel-Animation",
+                "date": "May 2015",
+                "client": "National Museum Picasso-Paris",
+                "description": "For the European Night of Museums 2015, the National Museum Picasso-Paris asked Gobelins’ students to create videos to be projected on the main facade of the museum.  <br/><br/>In pairs with Lorraine Sorlet, we imagined a fusion of styles combining games of shapes and deconstruction specifics to Picasso, in a modern, spatial and colorful world. About 3.000 people have attended to the projection.",
+                "media": [
+                    "http://vimeo.com/130173227",
+                    "images/musee-picasso/musee-picasso-1.jpg",
+                    "images/musee-picasso/musee-picasso-2.jpg",
+                    "images/musee-picasso/musee-picasso-3.jpg",
+                    "images/musee-picasso/musee-picasso-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Gobelins, School of Image"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard & Lorraine Sorlet",
+                    "role": "Creative Direction, Concepting, Motion Design, Design, Cel-Animation, 3D"
+                }, {
+                    "name": "Sound",
+                    "role": "Léon Deutschmann"
+                }, {
+                    "name": "Client",
+                    "role": "National Museum Picasso-Paris"
+                }]
+            },
+            {
+                "title": "La Petite Robe Noire",
+                "displayTitle": "La Petite<br/>Robe Noire",
+                "intro": "Installation, Video & Motion Design  -  Jan 2015  -  Guerlain  -  Gobelins",
+                "project": "Installation, Video & Motion Design",
+                "date": "Jan 2015",
+                "client": "Guerlain",
+                "description": "This is a visual interpretation of the famous fragrance “La petite Robe Noire” (the little black dress) by Guerlain. We had to imagine a video to be presented on a numerical tunnel made up of three 4K-Screens aligned, forming an arch.  <br/><br/>We worked on the full creative process (from Creative Direction to Video and Motion Design) in a team of 5 people. It was exposed in the Guerlain's Boutique at 68 Champs-Elysées for two months.",
+                "media": [
+                    "http://vimeo.com/117195966",
+                    "images/la-petite-robe-noire/la-petite-robe-noire-1.jpg",
+                    "images/la-petite-robe-noire/la-petite-robe-noire-2.jpg",
+                    "images/la-petite-robe-noire/la-petite-robe-noire-3.jpg",
+                    "images/la-petite-robe-noire/la-petite-robe-noire-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Gobelins, School of Image"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard, Corentin Bureau, Adelaïde Vanuxem, Claire Thimon & Mathilde Valero",
+                    "role": "Creative Direction,<br/>Concepting, Design, Motion Design, Live-Action"
+                }, {
+                    "role": "Matilde Simone",
+                    "name": "Model"
+                }, {
+                    "name": "Music",
+                    "role": "Tallisker"
+                }, {
+                    "name": "Client",
+                    "role": "Guerlain"
+                }]
+            }
+        ]
+    },
+    "fr": {
+        "intro": "<b>Cliquez</b> et maintenez pour entrer.",
+        "introMobile": "<b>Touchez</b> et maintenez pour entrer.",
+        "header": {
+            "works": "Projets",
+            "worksBack": "Retour",
+            "about": "À propos",
+            "reel": "Reel"
+        },
+        "sections": {
+            "about": {
+                "title": "À propos"
+            },
+            "reel": {
+                "title": "Showreel"
+            },
+            "works": {
+                "title": "Projets sélectionnés",
+                "previous": "Projet précédent",
+                "next": "Projet suivant"
+            },
+            "rotateScreen": "Tournez votre mobile <b>verticalement</b>."
+        },
+        "about": {
+            "textOne": "Je suis Thieb ou Thiébault Delaporte-Richard, 23 ans, Directeur Artistique à <a href=\"http://www.makemepulse.com/\" target=\"_blank\">Make Me Pulse</a>. Diplomé de l'Ecole des <a href=\"http://www.gobelins-school.com/\" target=\"_blank\">Gobelins</a>, J'ai également travaillé à <a href=\"http://toolofna.com/\" target=\"_blank\">Tool of North America</a> (Santa Monica, CA)<br/><br/>Que ce soit en agence ou en tant que freelance, j'ai eu le privilège de collaborer avec plusieurs marques ou institutions majeures telles que Netflix, Canal+, la Maison Blanche, Airbnb, IBM, l'US Army, Guerlain et Google.<br/><br/>",
+            "textTwo": "Porté par ma passion pour le digital, j'essaie d'apprendre et de découvrir de nouvelles choses chaque jour pour créer des visuels et expériences uniques. J'aime chercher à toucher au ressenti et aux émotions en accordant beaucoup d'importance aux détails, animations et interactions.<br/><br/>Bobas, poulet frit et <a href=\"http://ayamflow.fr\" target=\"_blank\">ayamflow</a> ont été utilisés pour coder ce site."
+        },
+        "works": [
+            {
+                "title": "Make Me Pulse 2017",
+                "displayTitle": "Make Me<br/>Pulse 2017",
+                "intro": "Direction Artistique, 3D, UI Design  - Janv 2017  -  Projet Interne  -  Make Me Pulse",
+                "projet": "Direction Artistique, 3D & UI Design",
+                "date": "Janv 2017",
+                "client": "Projet interne",
+                "description": "En agence, la même question se pose chaque année: comment souhaiter aux clients une bonne année ? Après le succès de ses voeux 2016, Make Me Pulse était très attendu au tournant. Avec comme message central que 'Les bonnes idées sont faites pour être réalisées', nous avons alors pensé à présenter plusieurs scènes reprenant des inventions révolutionnaires, avec lesquelles l'on pourrait interagir.<br/><br/>Lead DA sur ce projet, j'ai imaginé puis modélisé des objets 3D pour illustrer chacune des inventions, au sein d'un univers coloré et en rupture avec les voeux de 2016 (n&b/glitch).<br/><br/>Les développeurs, eux, ont ensuite utilisé ces objets 3D pour y ajouter de l'interaction et un peu de magie. Pour bien commencer 2017.<br/><br/>Expérience disponible sur <a href=\"http://2017.makemepulse.com/\" target=\"_blank\">2017.makemepulse.com</a>.",
+                "media": [
+                    "images/wishes/wishes-gif.gif",
+                    "images/wishes/wishes-1.jpg",
+                    "images/wishes/wishes-2.jpg",
+                    "images/wishes/wishes-3.jpg",
+                    "images/wishes/wishes-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Make Me Pulse"
+                }, {
+                    "name": "Nicolas Rajabaly & Antoine Ughetto",
+                    "role": "Supervision, Concept"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard",
+                    "role": "Direction Creative, Lead 3D, Lead Design, UI/UX, Concept"
+                }, {
+                    "name": "Giovanni Xu",
+                    "role" :"Design, UI/UX Design"
+                }, {
+                    "name": "Pierre Lepers",
+                    "role": "Lead Creative Dev, Creative Dev (Scene 5, la fusée)"
+                }, {
+                    "name": "Florentin Monteil",
+                    "role": "Creative Dev (Scene 4, les avions)"
+                }, {
+                    "name": "Christophe Massolin",
+                    "role": "Creative Dev (Scene 3, le robot), Front-end Dev"
+                }, {
+                    "name": "William Mapan & Sylvain Bernardi",
+                    "role": "Creative Dev (Scene 2, le polaroïd)"
+                }, {
+                    "name": "Fabien Motte",
+                    "role": "Creative Dev (Scene 1, l'ampoule)"
+                }, {
+                    "name": "Bertrand Souriau",
+                    "role": "Front-end Dev"
+                }, {
+                    "name": "Musique & Effets sonores",
+                    "role": "Loïc Bénart"
+                }],
+                "awards": [
+                    {
+                        "title": "FWA",
+                        "value": "SOTD."
+                    }, {
+                        "title": "Awwwards",
+                        "value": "SOTD."
+                    }, {
+                        "title": "CSS Design Awards",
+                        "value": "SOTD."
+                    }
+                ]
+            },
+            {
+                "title": "Cryptaris mission",
+                "displayTitle": "Cryptaris<br/>mission",
+                "intro": "Motion Design, UI Design & Animation  -  Nov 2015  -  The US Army & Google  -  Tool of NA",
+                "projet": "Motion Design, UI Design & Animation",
+                "date": "Nov 2015",
+                "client": "The US Army, Google",
+                "description": "Cryptaris est une simulation composée de 8 interstitiels video et de 7 jeux WebGL, chacun testant l'utilisateur sur une gamme de compétences requises pour les différentes carrières qu'offre l'US Army.<br/><br/>La vidéo suivante présente la page d'accueil du projet ainsi que les interstitiels sur lesquels j'ai travaillé, au sein de l'équipe créative menée par <a href=\"http://www.svla.co/\" target=\"_blank\">Michael Sevilla</a>.<br/><br/>Simulation complète sur <a href=\"http://www.cryptarismission.com\" target=\"_blank\">cryptarismission.com</a>.",
+                "media": [
+                    "http://vimeo.com/147446182",
+                    "images/cryptaris-mission/cryptaris-mission-1.jpg",
+                    "images/cryptaris-mission/cryptaris-mission-2.jpg",
+                    "images/cryptaris-mission/cryptaris-mission-3.jpg",
+                    "images/cryptaris-mission/cryptaris-mission-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Tool of North America"
+                }, {
+                    "name": "Dustin Callif",
+                    "role": "Directeur Département Digital"
+                }, {
+                    "name": "Chris Neff",
+                    "role": "Chef de Projet Executif, Concept"
+                }, {
+                    "name": "Adam Baskin",
+                    "role" :"Chef de Projet Senior, Concept, Ecriture, VO"
+                }, {
+                    "name": "Michael Sevilla",
+                    "role": "Direction Créative, Concept, Ecriture, Lead Design, Style Frames, Direction Motion Design, 3D, VO"
+                }, {
+                    "name": "Ben Priddy",
+                    "role": "Direction Créative, Concept"
+                }, {
+                    "name": "Josh Jetson",
+                    "role": "Concept, 3D , Design, UI Design, Animation"
+                }, {
+                    "name": "Seth Benson",
+                    "role": "Modélisation 3D, Animation 3D, UI Design, Animation, Montage"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard",
+                    "role": "Motion Design, HUD, UI Design, Animation"
+                }, {
+                    "name": "Yuee Seo",
+                    "role": "Content Design, Motion Design, Animation"
+                }, {
+                    "name": "Charlie Short",
+                    "role": "Ecriture"
+                }, {
+                    "name": "Son",
+                    "role": "Plan 8"
+                }, {
+                    "name": "Client",
+                    "role": "U.S. Army"
+                }, {
+                    "name": "Agences",
+                    "role": "Universal McCann, MRM, Google Zoo"
+                }],
+                "Récompenses": [
+                    {
+                        "title": "FWA",
+                        "value": "SOTD, MOTD, SOTM finaliste."
+                    }, {
+                        "title": "Awwwards",
+                        "value": "SOTD, SOTM finaliste."
+                    }
+                ]
+            },
+            {
+                "title": "Glide Experience",
+                "displayTitle": "Glide<br/>Experience",
+                "intro": "Réalité Virtuelle, 3D  -  Août 2016  -  Projet interne  -  Tool of NA",
+                "projet": "Réalité Virtuelle, 3D",
+                "date": "Août 2016",
+                "client": "Tool of NA",
+                "description": "Glide est une simulation de vol pour HTC Vive, permettant de prendre le contrôle d'un deltaplane au coeur d'un evironnement montagneux. Nous avons imaginé ce jeu en équipe de 2, dans lequel j'ai été Directeur de Creation, Lead 3D et Lead VR.<br/><br/>Grâce au système de tracking de l'HTC Vive, volez au coeur de ce paysage montagneux infini et génératif comme si vous y étiez, ralentissant en montée et gagnant de la vitesse en descente. Sillonnez les vallées et montagnes librement, ou tentez de suivre les anneaux pour finir le jeu !<br/><br/>Disponible sur <a href=\"http://steamcommunity.com/sharedfiles/filedetails/?id=764215190\" target=\"_blank\">SteamVR</a>.",
+                "media": [
+                    "http://vimeo.com/183302886",
+                    "images/glide-experience/glide-experience-1.jpg",
+                    "images/glide-experience/glide-experience-2.jpg",
+                    "images/glide-experience/glide-experience-3.jpg",
+                    "images/glide-experience/glide-experience-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Tool of North America"
+                }, {
+                    "name": "Dustin Callif",
+                    "role": "Directeur Département Digital"
+                }, {
+                    "name": "Julia Sourikoff",
+                    "role": "Directeur Réalité Virtuelle/360"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard",
+                    "role": "Direction créative, Concept, Lead VR, Lead 3D, Design, Prise de vue, Montage"
+                }, {
+                    "name": "Mitchell Stamper",
+                    "role": "Direction créative, Concept, Design, Gestion de projet"
+                }, {
+                    "name": "Owen Bell",
+                    "role": "Game Développement"
+                }, {
+                    "name": "Musique",
+                    "role": "Overwerk - Daybreak"
+                }, {
+                    "name": "Client",
+                    "role": "Projet interne"
+                }]
+            },
+            {
+                "title": "Reinventing the wheel",
+                "displayTitle": "Reinventing<br/>the wheel",
+                "intro": "Réalité Virtuelle, 3D  -  Janv 2016  -  IBM Watson  -  Tool of NA  ",
+                "projet": "Réalité Virtuelle, 3D  ",
+                "date": "Janv 2016",
+                "client": "IBM Watson",
+                "description": "Cette vidéo 360 présente \"Watson\" à l'industrie Automobile. l'expérience a pour objectif de permettre aux utilisateurs de faire un tour dans la voiture cognitive (ou voiture 'intelligente') du futur.<br/><br/>Le parcours se déroule dans un environnement stylisé 3D, alors que des infographies viennent s'animer et entourer l'utilisateur. L'experience Google Cardboard a été présentée au Salon International de l'Auto 2016 à Detroit.<br/><br/>Disponible sur <a href=\"http://itunes.apple.com/us/app/ibmix-auto/id1079650988?ls=1&mt=8\" target=\"_blank\">Itunes</a>.",
+                "media": [
+                    "http://vimeo.com/157911571",
+                    "images/reinventing-the-wheel/reinventing-the-wheel-1.jpg",
+                    "images/reinventing-the-wheel/reinventing-the-wheel-2.jpg",
+                    "images/reinventing-the-wheel/reinventing-the-wheel-3.jpg",
+                    "images/reinventing-the-wheel/reinventing-the-wheel-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Tool of North America"
+                }, {
+                    "name": "Dustin Callif",
+                    "role": "Directeur Département Digital"
+                }, {
+                    "name": "Simi Dhillon",
+                    "role": "Chef de Projet Senior"
+                }, {
+                    "name": "Ben Priddy",
+                    "role": "Développement"
+                }, {
+                    "name": "Matt Gase, Clay Weishaar",
+                    "role": "Direction Créative, Concept, Design, Direction 3D"
+                }, {
+                    "name": "Seth Benson",
+                    "role": "Modeling 3D, Animation 3D, Direction Technique 3D, Montage"
+                }, {
+                    "name": "Steffen Knosgaard",
+                    "role": "Modelisation 3D, Animation 3D"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard",
+                    "role": "Modélisation 3D, Animation 3D, UI Design"
+                }, {
+                    "name": "Son",
+                    "role": "Q Department"
+                }, {
+                    "name": "Client",
+                    "role": "IBM, IBM Watson"
+                }]
+            },
+            {
+                "title": "Le Petit Journal",
+                "displayTitle": "Le Petit<br/>Journal",
+                "intro": "Cel Animation  -  Juin 2015  -  Canal+ & Bangumi Productions  -  Gobelins",
+                "projet": "Cel Animation",
+                "date": "Juin 2015",
+                "client": "Canal+ & Bangumi Productions",
+                "description": "Canal+ et les studios Bangumi ont plébiscité les étudiants de Gobelins pour imaginer une nouvelle animation d'entrée pour une édition spéciale animée du \"Petit Journal\". <br/><br/>Ma proposition présente des gouttes de peinture jouant entre elles pour révéler le logo de l'émission, utilisant le procédé de Cel-Animation. C'est elle qui a été choisie par leurs équipes pour être diffusée durant l'émission du 18 Juin 2015.",
+                "media": [
+                    "http://vimeo.com/133205223",
+                    "images/le-petit-journal/le-petit-journal-1.jpg",
+                    "images/le-petit-journal/le-petit-journal-2.jpg",
+                    "images/le-petit-journal/le-petit-journal-3.jpg",
+                    "images/le-petit-journal/le-petit-journal-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Gobelins, School of Image"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard",
+                    "role": "Direction Créative, Concept, Direction Cel-Animation"
+                }, {
+                    "name": "Félix Pommier",
+                    "role": "Cel-Animation"
+                }, {
+                    "name": "Thibault Lagardère",
+                    "role": "Character Design"
+                }, {
+                    "name": "Client",
+                    "role": "Bangumi, Canal+"
+                }]
+            },
+            {
+                "title": "Musée Picasso",
+                "displayTitle": "Musée<br/>Picasso",
+                "intro": "Vidéo Mapping, 3D, Cel-Animation  -  Mai 2015  -  Musée National Picasso-Paris  -  Gobelins ",
+                "projet": "Vidéo Mapping, 3D, Cel-Animation",
+                "date": "Mai 2015",
+                "client": "Musée National Picasso-Paris",
+                "description": "A l'occasion de la nuit Européenne des musées 2015, le Musée national Picasso-Paris a fait appel aux étudiant des Gobelins pour créer différentes vidéos à projeter sur la façade principale du musée.<br/><br/>En binôme avec Lorraine Sorlet, nous avons imaginé une fusion de styles combinant jeux de formes et déconstruction bien spécifiques à Picasso, dans un environnement moderne, spatial et coloré. 3.000 personnes environ ont pu assister à la projection.",
+                "media": [
+                    "http://vimeo.com/130173227",
+                    "images/musee-picasso/musee-picasso-1.jpg",
+                    "images/musee-picasso/musee-picasso-2.jpg",
+                    "images/musee-picasso/musee-picasso-3.jpg",
+                    "images/musee-picasso/musee-picasso-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Gobelins, L'Ecole de l'Image"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard & Lorraine Sorlet",
+                    "role": "Direction créative, Concept, Motion Design, Design, Cel-Animation, 3D"
+                }, {
+                    "name": "Musique",
+                    "role": "Léon Deutschmann"
+                }, {
+                    "name": "Client",
+                    "role": "Musée National Picasso-Paris"
+                }]
+            },
+            {
+                "title": "La Petite Robe Noire",
+                "displayTitle": "La Petite<br/>Robe Noire",
+                "intro": "Installation, Vidéo & Motion Design  -  Janv 2015  -  Guerlain  -  Gobelins",
+                "projet": "Installation, Vidéo & Motion Design",
+                "date": "Janv 2015",
+                "client": "Guerlain",
+                "description": "Ce travail est une intérpretation visuelle du célèbre parfum 'La petite Robe Noire' de Guerlain. Nous avons eu à concevoir une vidéo à présenter au sein d'un tunnel composé de 3 écrans 4K alignés, formant un arche.<br/><br/>En équipe de 5 personnes, nous avons travaillé sur le processus de création complet; de la Direction Créative à la prise video ou motion design. L'installation à été exposée à la maison Guerlain des Champs Elysées pendant deux mois.",
+                "media": [
+                    "http://vimeo.com/117195966",
+                    "images/la-petite-robe-noire/la-petite-robe-noire-1.jpg",
+                    "images/la-petite-robe-noire/la-petite-robe-noire-2.jpg",
+                    "images/la-petite-robe-noire/la-petite-robe-noire-3.jpg",
+                    "images/la-petite-robe-noire/la-petite-robe-noire-4.jpg"
+                ],
+                "credits": [{
+                    "name": "Production",
+                    "role": "Gobelins, L'Ecole de l'Image"
+                }, {
+                    "me": true,
+                    "name": "Thiébault Delaporte-Richard, Corentin Bureau, Adelaïde Vanuxem, Claire Thimon & Mathilde Valero",
+                    "role": "Direction Créative,<br/>Concept, Design, Motion Design, Prise de vue"
+                }, {
+                    "role": "Matilde Simone",
+                    "name": "Modèle"
+                }, {
+                    "name": "Musique",
+                    "role": "Tallisker"
+                }, {
+                    "name": "Client",
+                    "role": "Guerlain"
+                }]
+            }
+        ]
+    },
+    "socials": [
+        {
+            "id": "twitter",
+            "url": "http://www.twitter.com/thieb_co"
+        },
+        {
+            "id": "vimeo",
+            "url": "http://www.vimeo.com/thieb"
+        },
+        {
+            "id": "dribbble",
+            "url": "http://www.dribbble.com/thieb_co"
+        },
+        {
+            "id": "linkedin",
+            "url": "http://www.linkedin.com/in/thieb"
+        }
+    ]
+}
