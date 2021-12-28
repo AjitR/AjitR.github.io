@@ -123,15 +123,15 @@ table {
 }
 @font-face {
     font-family: gt-walsheim-bold;
-    src: url(../fonts/gt-walsheim-bold-web.html);
-    src: url(../fonts/gt-walsheim-bold-webd41dd41d.html#iefix) format("embedded-opentype"), url(../fonts/gt-walsheim-bold-web-2.html) format("woff"), url(../fonts/gt-walsheim-bold-web-3.html) format("truetype");
+    src: url(../fonts/gt-walsheim-bold-web.eot);
+    src: url(../fonts/gt-walsheim-bold-webd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/gt-walsheim-bold-web.woff) format("woff"), url(../fonts/gt-walsheim-bold-web.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
 @font-face {
     font-family: simplon-mono;
     src: url(../fonts/SimplonMono-Regular-WebXL.eot);
-    src: url(../fonts/SimplonMono-Regular-WebXLd41dd41d.eot#iefix) format("embedded-opentype"), url(../fonts/SimplonMono-Regular-WebXL.woff2) format("woff2"), url(../fonts/SimplonMono-Regular-WebXL.woff) format("woff"), url(../fonts/SimplonMono-Regular-WebXL.ttf) format("truetype");
+    src: url(../fonts/SimplonMono-Regular-WebXLd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/SimplonMono-Regular-WebXL.woff2) format("woff2"), url(../fonts/SimplonMono-Regular-WebXL.woff) format("woff"), url(../fonts/SimplonMono-Regular-WebXL.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
