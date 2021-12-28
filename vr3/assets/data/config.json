@@ -1,0 +1,17 @@
+{
+    "manifest": {
+        "json": [
+        ],
+        "images": [
+            {"id": "intro", "url": "images/intro.bin"}
+        ],
+        "videos": [
+        ],
+        "fonts": [
+            "GothamNarrow-Bold",
+            "GothamNarrow-Medium",
+            "GothamNarrow-Book",
+            "GothamNarrow-BookItalic"
+        ]
+    }
+}
