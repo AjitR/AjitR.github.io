@@ -1,0 +1,271 @@
+SK.Data = {
+  "cover": {
+    "bg_color": "#ffffff",
+    "poster": "images/cover/land.jpg",
+    "text_color": "#111111",
+    "text": ""
+  },
+  "about": {
+    "copy": [
+      "Constantly fueled with curiosity and boundless enthusiasm, I am a multidisciplinary product designer who enjoys crafting delightful, useful and equally meaningful product experiences.",
+	  "In a parallel universe, I am busy <a target='blank' href='https://www.instagram.com/explore/tags/idoodletheworldaroundme/' style='color:#888; text-decoration-style:none !important'>doodling the world around me </a> or documenting my daily life through dataviz or exploring music.",
+	  "<a href='https://vaishalirajurkar.tumblr.com/' target='_blank'><img height='42px' width='42px' src='images/work/contact/ABOUTPAGE-06.svg' /></a>  <a href='https://dribbble.com/Vaishalirajurkar' target='_blank'><img height='42px' width='42px' src='images/work/contact/ABOUTPAGE-07.svg' /></a>  <a href='https://www.instagram.com/vaishali_rajurkar/' target='_blank'><img height='42px' width='42px' src='images/work/contact/ABOUTPAGE-09.svg' /></a>  <a href='https://www.linkedin.com/in/vaishali-rajurkar-8229a492/?ppe=1' target='_blank'><img height='42px' width='42px' src='images/work/contact/ABOUTPAGE-05.svg' /></a>  <a href='mailto:post.vaishalirajurkar@gmail.com' target='_blank'><img height='42px' width='42px' src='images/work/contact/ABOUTPAGE-08.svg' /></a> <a href='images/files/vaishali_rajurkar_CV.pdf' target='_blank'><img height='42px' width='90px' src='images/work/contact/ABOUTPAGE-10.svg' /></a>",
+	  "<a target='blank' href='http://vaishalirajurkar.com/' style='color:#888; text-decoration-style:none !important'>See 2015 folio</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a target='blank' href='https://www.yumpu.com/en/document/view/59495896/connected-home-smart-hub-residential-fire-safety-system' style='color:#888; text-decoration-style:none !important'>View Graduation Project Report</a>  "
+	 
+    ],
+    "lists": [
+      
+      {
+        "title": "",
+        "items": [
+          
+        ]
+      }
+    ]
+  },
+  "work": [
+    {
+      "id": "ml",
+      "title": "ML",
+      "content": [
+        {
+          "type": "text-right",
+          "title": [
+            "Masterlink"
+          ],
+          "copy": "Electronic volume correctors(EVC) are used in gas distribution and transportation networks for natural gas volume measurements. These are used by billing systems for accurate billing of customers. The MasterLink software serves as a configuration and troubleshooting tool for EVCs on the field. Masterlink is an integrated software which works across the entire Honeywell gas solutions portfolio.<br><p>My Role: I was responsible for the experience strategy and design of the iOS and Android app. I led the UX work, structured the information and produced all major deliverables for user interface and asset creation. In addition, I worked alongside a product manager, development team and content strategist.Weekly collaboration with subject matter experts, senior stakeholders, business and marketing team was a critical process throughout the project lifecycle. This helped me address crucial customer pain-points related to the existing MasteLink software and translate the experience for mobile platform."
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/ml/ml1.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/ml/ml2.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/ml/ml3.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/ml/ml4.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/ml/ml5.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/ml/ml6.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/ml/ml7.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/ml/ml8.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/ml/ml9.jpg",
+          "margin": false
+        },
+		{
+          "type": "big-image-2",
+          "src": "images/work/ml/ml10.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/ml/ml11.jpg"
+          
+        }
+      ]
+    },
+    {
+      "id": "tm",
+      "title": "TM",
+      "content": [
+        {
+          "type": "text-right",
+          "title": [
+            "Terminal Manager"
+          ],
+          "copy": "As a part of terminal automation portfolio of Honeywell, Terminal Manager is a web-based solution for facilitating, monitoring and controlling the distribution of products in a terminal. It monitors and controls all critical processes by capturing real-time data to ensure smooth and safe terminal operation.<br><p>My Role: I interviewed stakeholders throughout the business to uncover insights that helped me create framework for a terminal operator as a user and address their critical requirements. I led workshops to gather necessary inputs from SMEs and visualized overall terminal flow for various use cases. After understanding entire supply chain and a terminal flow, I designed a timeline based UI which works on shift hours and updates the user with real-time inventory. The project gave me lot of scope to iterate with various kinds of data visualization concepts.Second part of the project involved simplification of planning and scheduling of orders for multiple modes of transport. After studying the underlying pattern of ordering process, I designed the UX framework which is intuitive to use and easy to customize based on customers’ business needs."
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/tm/tm1.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/tm/tm2.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/tm/tm3.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/tm/tm4.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/tm/tm5.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/tm/tm6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tmapp",
+      "title": "TMAPP",
+      "content": [
+        {
+          "type": "text-right",
+          "title": [
+            "TM Analytics App"
+          ],
+          "copy": "TM analytics application concept was prepared with an intent to understand terminal performance remotely. It was a working proof of concept which was developed from scratch in 3 weeks. This project was an extension of terminal manager product offering, mainly targeted for terminal owners who can remotely view performance and throughput of their terminals and get some actionable insights based on history data analytics.<br><p>My Role:I was part of the pitch team and responsible for the UX work and design of the iOS app concept. I worked along with the third-party vendor and helped to develop POC which was presented to our critical customers to understand their challenges and acceptance level for such solutions."
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/tm_app/Tmapp1.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/tm_app/Tmapp2.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/tm_app/Tmapp3.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/tm_app/Tmapp4.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/tm_app/Tmapp5.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/tm_app/Tmapp6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "miwi",
+      "title": "MIWI",
+      "content": [
+        {
+          "type": "text-right",
+          "title": [
+            "MiWireless" 
+			],
+			"copy": "MiWireless is a part of Honeywell field product solution’s portfolio and is a standalone electronic gas volume corrector designed to deliver reliable and cost-effective volume measurement in natural gas operations. Current product had many challenges in terms of manufacturing complexities, large number of SKUs, IP issues and extremely painful installation process. The new improved product concept brings standardization across all the touchpoints of the product line right from the placing order, manufacturability till servicing and maintenance.<br><p>My Role: I supported as an industrial designer and worked on usability enhancement for assembly, installation and servicing of the product. I Helped in optimizing the product footprint, manufacturing process and product cost. A 1:1 mockup was also developed to get early feedback from critical stakeholders."
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/miwi/miwi1.jpg",
+          "margin": false
+        },
+		{
+          "type": "big-image-2",
+          "src": "images/work/miwi/miwi2.jpg",
+          "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/miwi/miwi3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "stt",
+      "title": "STT",
+      "content": [
+       
+        {
+          "type": "text-right",
+          "title": [
+            "STT" ],
+			
+          "copy": "The existing Honeywell’s SmartLine temperature transmitter was robust but had various quality issue. The team wanted to develop next level of iteration with advanced functionalities and many other improved value added features. The new concept not only optimized the volume and made it mechanically compact but also enhanced usability aspect by adding gripping and mounting details.<br><p>My Role: Supported as an industrial designer and developed concepts for an enclosure design with better usability and product footprint. Multiple iterations were made considering various challenges in terms of mechanical and electrical constraints to arrive at a simplified and optimised form factor."         
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/stt/STT1.jpg",
+		  "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/stt/STT2.jpg",
+		  "margin": false
+        },
+        
+        {
+          "type": "big-image-2",
+          "src": "images/work/stt/STT3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "misc",
+      "title": "MISC",
+      "content": [
+       
+        {
+          "type": "text-right",
+          "title": [
+            "Miscellaneous " ],
+			
+          "copy": "I have a thing for postcards, ink and creative data visualisation."         
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/misc/misc1.jpg",
+		  "margin": false
+        },
+        {
+          "type": "big-image-2",
+          "src": "images/work/misc/misc2.jpg",
+		  "margin": false
+        },
+		{
+          "type": "big-image-2",
+          "src": "images/work/misc/misc3.jpg",
+		  "margin": false
+        },
+        
+        {
+          "type": "big-image-2",
+          "src": "images/work/misc/misc4.jpg"
+        }
+      ]
+    }
+	
+  ]
+};

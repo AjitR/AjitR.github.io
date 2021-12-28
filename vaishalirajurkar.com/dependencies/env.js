@@ -1,0 +1,1 @@
+window.SK = window.SK || {};

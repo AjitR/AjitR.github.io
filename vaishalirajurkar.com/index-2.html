@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]> <html class="no-js weak" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<!-- Mirrored from vaishalirajurkar.com/index.html by HTTrack Website Copier/3.x [XR&CO'2017], Tue, 28 Dec 2021 15:53:36 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vaishali Rajurkar</title>
+    <meta name="description" content="Portfolio of Vaishali Rajurkar, a Multidisciplinary Product Designer with a Background in User Experience Design, Industrial Design and Architecture. ">
+    <meta name="keywords" content="vaishali rajurkar, designer, interaction design, idoodletheworldaroundme, product designer, banglore, multidiscipline, ui-ux, ui, ux">
+    <meta name="copyright" content="Copyright © Vaishali Rajurkar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vaishali Rajurkar">
+    <meta property="og:site_name" content="Vaishali Rajurkar">
+    <meta property="og:image" content="images/thumbnail.png">
+    <meta property="og:url" content="index-2.html">
+    <meta property="og:description" content="Vaishali Rajurkar's portfolio.">
+
+    
+    <link rel="shortcut icon" href="12.png" type="image/x-icon">
+  
+    <link rel="icon" type="image/png" href="12.png" sizes="16x16">
+
+
+    <link rel="stylesheet" href="styles/main.css"/>
+
+    <script src="scripts/vJS1.min.js"></script>
+
+    
+  </head>
+<body>
+
+
+	
+	<div id="work" class="hidden"></div>
+    <nav></nav>
+    <div id="about"></div>
+    <aside class="hidden"></aside>
+
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+	
+<script src="../ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scripts/vJS2.min.js"></script>
+    <script src="dependencies/env.js"></script>
+    <script src="dependencies/data.json"></script>
+    <script src="scripts/app.min.js"></script>
+	
+	<script type="text/javascript">
+		$(function() {
+	 // Get page title
+	 var pageTitle = $("title").text();
+
+	 // Change page title on blur
+	 $(window).blur(function() {
+	 	$("title").text("It's lonely here..");
+	 });
+
+	 // Change page title back on focus
+	 $(window).focus(function() {
+	 	$("title").text(pageTitle);
+	 });
+	});
+</script>
+
+<script type="text/javascript">
+
+
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 1000); 
+        return false; 
+    }); 
+});
+</script>
+
+  </body>
+
+
+<!-- Mirrored from vaishalirajurkar.com/index.html by HTTrack Website Copier/3.x [XR&CO'2017], Tue, 28 Dec 2021 15:53:36 GMT -->
+</html>
