@@ -1,7 +1,7 @@
 SK.Data = {
   "cover": {
     "bg_color": "#ffffff",
-    "poster": "images/cover/land.jpg",
+    "poster": "",
     "text_color": "#111111",
     "text": ""
   },
@@ -11,19 +11,37 @@ SK.Data = {
 	  "In a parallel universe, I am busy <a target='blank' href='https://www.instagram.com/explore/tags/idoodletheworldaroundme/' style='color:#888; text-decoration-style:none !important'>doodling the world around me </a> or documenting my daily life through dataviz or exploring music.",
 	  "<a href='https://vaishalirajurkar.tumblr.com/' target='_blank'><img height='42px' width='42px' src='images/work/contact/ABOUTPAGE-06.svg' /></a>  <a href='https://dribbble.com/Vaishalirajurkar' target='_blank'><img height='42px' width='42px' src='images/work/contact/ABOUTPAGE-07.svg' /></a>  <a href='https://www.instagram.com/vaishali_rajurkar/' target='_blank'><img height='42px' width='42px' src='images/work/contact/ABOUTPAGE-09.svg' /></a>  <a href='https://www.linkedin.com/in/vaishali-rajurkar-8229a492/?ppe=1' target='_blank'><img height='42px' width='42px' src='images/work/contact/ABOUTPAGE-05.svg' /></a>  <a href='mailto:post.vaishalirajurkar@gmail.com' target='_blank'><img height='42px' width='42px' src='images/work/contact/ABOUTPAGE-08.svg' /></a> <a href='images/files/vaishali_rajurkar_CV.pdf' target='_blank'><img height='42px' width='90px' src='images/work/contact/ABOUTPAGE-10.svg' /></a>",
 	  "<a target='blank' href='http://vaishalirajurkar.com/' style='color:#888; text-decoration-style:none !important'>See 2015 folio</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a target='blank' href='https://www.yumpu.com/en/document/view/59495896/connected-home-smart-hub-residential-fire-safety-system' style='color:#888; text-decoration-style:none !important'>View Graduation Project Report</a>  "
-	 
+
     ],
     "lists": [
-      
+
       {
         "title": "",
         "items": [
-          
+
         ]
       }
     ]
   },
   "work": [
+    {
+      "id": "fl",
+      "title": "Fleetlink",
+      "content": [
+        {
+          "type": "big-image-2",
+          "src": "images/work/ml/Fleetlink_cover.png",
+          "margin": false
+        },
+        {
+          "type": "text-left",
+          "title": [
+            "Fleetlink"
+          ],
+          "copy": "Electronic volume correctors(EVC) are used in gas distribution and transportation networks for natural gas volume measurements. These are used by billing systems for accurate billing of customers. The MasterLink software serves as a configuration and troubleshooting tool for EVCs on the field. Masterlink is an integrated software which works across the entire Honeywell gas solutions portfolio."
+        }
+      ]
+    },
     {
       "id": "ml",
       "title": "ML",
@@ -88,7 +106,7 @@ SK.Data = {
         {
           "type": "big-image-2",
           "src": "images/work/ml/ml11.jpg"
-          
+
         }
       ]
     },
@@ -183,7 +201,7 @@ SK.Data = {
         {
           "type": "text-right",
           "title": [
-            "MiWireless" 
+            "MiWireless"
 			],
 			"copy": "MiWireless is a part of Honeywell field product solution’s portfolio and is a standalone electronic gas volume corrector designed to deliver reliable and cost-effective volume measurement in natural gas operations. Current product had many challenges in terms of manufacturing complexities, large number of SKUs, IP issues and extremely painful installation process. The new improved product concept brings standardization across all the touchpoints of the product line right from the placing order, manufacturability till servicing and maintenance.<br><p>My Role: I supported as an industrial designer and worked on usability enhancement for assembly, installation and servicing of the product. I Helped in optimizing the product footprint, manufacturing process and product cost. A 1:1 mockup was also developed to get early feedback from critical stakeholders."
         },
@@ -207,13 +225,13 @@ SK.Data = {
       "id": "stt",
       "title": "STT",
       "content": [
-       
+
         {
           "type": "text-right",
           "title": [
             "STT" ],
-			
-          "copy": "The existing Honeywell’s SmartLine temperature transmitter was robust but had various quality issue. The team wanted to develop next level of iteration with advanced functionalities and many other improved value added features. The new concept not only optimized the volume and made it mechanically compact but also enhanced usability aspect by adding gripping and mounting details.<br><p>My Role: Supported as an industrial designer and developed concepts for an enclosure design with better usability and product footprint. Multiple iterations were made considering various challenges in terms of mechanical and electrical constraints to arrive at a simplified and optimised form factor."         
+
+          "copy": "The existing Honeywell’s SmartLine temperature transmitter was robust but had various quality issue. The team wanted to develop next level of iteration with advanced functionalities and many other improved value added features. The new concept not only optimized the volume and made it mechanically compact but also enhanced usability aspect by adding gripping and mounting details.<br><p>My Role: Supported as an industrial designer and developed concepts for an enclosure design with better usability and product footprint. Multiple iterations were made considering various challenges in terms of mechanical and electrical constraints to arrive at a simplified and optimised form factor."
         },
         {
           "type": "big-image-2",
@@ -225,7 +243,7 @@ SK.Data = {
           "src": "images/work/stt/STT2.jpg",
 		  "margin": false
         },
-        
+
         {
           "type": "big-image-2",
           "src": "images/work/stt/STT3.jpg"
@@ -236,13 +254,13 @@ SK.Data = {
       "id": "misc",
       "title": "MISC",
       "content": [
-       
+
         {
           "type": "text-right",
           "title": [
             "Miscellaneous " ],
-			
-          "copy": "I have a thing for postcards, ink and creative data visualisation."         
+
+          "copy": "I have a thing for postcards, ink and creative data visualisation."
         },
         {
           "type": "big-image-2",
@@ -259,13 +277,13 @@ SK.Data = {
           "src": "images/work/misc/misc3.jpg",
 		  "margin": false
         },
-        
+
         {
           "type": "big-image-2",
           "src": "images/work/misc/misc4.jpg"
         }
       ]
     }
-	
+
   ]
 };
