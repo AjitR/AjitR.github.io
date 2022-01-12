@@ -3,8 +3,7 @@ title: Mathieu Mayer
 email: mathieu.mm@me.com
 description: "My name is Mathieu Mayer. I’m a designer. I’ve helped companies like Google, Asics, Indeed or Tokyo Art Beat to create new digital products since 2013."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://mathieumayer.com" # the base hostname & protocol for your site
-ga: UA-45562731-1
+url: "https://ajitr.github.io/mx3/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
