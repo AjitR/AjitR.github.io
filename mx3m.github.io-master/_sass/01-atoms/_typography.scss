@@ -1,0 +1,189 @@
+html {
+  font-size: $base-font-size;
+}
+
+body {
+  font-size: 100%;
+  color: $color-text;
+  font-family: 'Helvetica Neue', 'Segoe UI', Roboto, sans-serif;
+  font-weight: 500;
+  line-height: $base-line-height;
+  text-rendering: optimizeLegibility;
+  @include breakpoint(xs) {
+    font-size: 90%;
+  }
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  margin: 2rem 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.06);
+  &.spacing {
+    background-color: transparent;
+    margin: 0;
+    height: 1rem;
+  }
+}
+
+a {
+  color: $color-text;
+  font-weight: 700;
+  text-decoration: none;
+  &:hover {
+    color: $color-link-hover;
+  }
+  &.hint,
+  .hint {
+    border-bottom: 2px solid $color-text;
+    &:hover {
+    }
+    &.accent {
+      color: $color-link-hover;
+    }
+    &.accent-border {
+      border-color: $color-link-hover;
+    }
+  }
+}
+
+p {
+  margin: 1rem 0;
+  &:first-child {
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+small {
+  font-size: 14px;
+}
+
+blockquote {
+  padding: 0 0 0 1.25em;
+  margin: 0;
+  border-left: 3px solid currentColor;
+  font-style: italic;
+  & + .author {
+    margin-top: 2em;
+  }
+}
+
+.f2 {
+  font-size: 22px;
+  line-height: 1.45;
+  @include breakpoint(sm) {
+    font-size: 24px;
+    line-height: 1.45;
+  }
+  @include breakpoint(md) {
+    font-size: 26px;
+  }
+}
+
+.f3 {
+  font-size: 22px;
+}
+
+.f4 {
+  font-size: 16px;
+}
+
+.fs-reset {
+  font-size: 100%;
+}
+
+.ts-strong {
+  font-weight: 600;
+}
+
+.ts-headline {
+  margin-top: 0;
+}
+
+.ts-no-margin {
+  margin: 0;
+}
+
+.ts-half-margin {
+  margin: 0.5em 0;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.ts-muted {
+  color: $color-text-lighter;
+}
+
+.ts-measure {
+  max-width: 610px;
+}
+
+.ts-align {
+  &-right {
+    text-align: right;
+  }
+  &-center {
+    text-align: center;
+  }
+}
+
+.ts-mb-center {
+  text-align: center;
+  @include breakpoint(sm) {
+    text-align: left;
+  }
+}
+
+.site-title {
+  @extend %reset-heading;
+  margin-bottom: 5px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.section-title {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+.side-title {
+  color: $color-text-lighter;
+  font-size: 18px;
+  font-weight: 500;
+  @supports (writing-mode: vertical-rl) {
+    @include breakpoint(lg) {
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding-right: 10vh;
+      transform: translateX(-200%);
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      &::before {
+        content: '';
+        position: absolute;
+        right: 2.5vh;
+        top: 0;
+        display: block;
+        width: 5vh;
+        height: 2px;
+        background-color: currentColor;
+      }
+    }
+  }
+}
+
+.post-title {
+  @extend %reset-heading;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}

@@ -1,0 +1,36 @@
+---
+layout: default
+id: home
+title: Portfolio
+---
+
+<div class="container">
+  <div class="top-intro">
+    <div class="ts-measure">
+      <p class="f2">Product Designer with cross-disciplinary skills to help you reach your goals. Based in Kyoto, Japan.</p>
+    </div>
+    <a class="button" href="mailto:mathieu.mayermazzoli@gmail.com?subject=mathieumayer.com: hello!">Hire me</a>
+  </div>
+
+  <div class="work" style="position: relative">
+    <h2 class="side-title ts-strong">Selected Projects</h2>
+    <div class="work-list grid grid-d2-m1">
+      {% for work in site.work reversed %}
+        <div class="work-list-item grid-item {{ work.class }}">
+          <a class="work-list-item-link" href="{{ work.url | relative_url }}"></a>
+          <div class="work-list-item-media">
+            <div class="work-list-item-background" style="background-color: {{ work.color }};"></div>
+            <div class="work-list-item-media-inner"">
+              <img class="work-list-item-thumbnail lazyload" src="{{ work.cover | relative_url }}" />
+            </div>
+          </div>
+          <div class="work-list-item-text">
+            <h3 class="work-list-item-title fs-reset">{{ work.title }}</h3>
+            <small class="work-list-item-type">{{ work.description }}</small>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% include footer.html %}
+</div>
